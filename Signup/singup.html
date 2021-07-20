@@ -5,49 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script
       src="https://kit.fontawesome.com/64d58efce2.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="style.css" />
-    <title>Cureya  Users registration and login page</title>
+      crossorigin="anonymous">
+    </script>
+    <link rel="stylesheet" href="./styles2.css" />
+    <title>Cureya </title>
   </head>
   <body>
     
     <div class="container">
       <div class="forms-container">
         <div class="signin-signup">
-              <!-- login -->
-
-
+              <!-- Signup -->       
           <form action="#" class="sign-in-form">
-            <img class="logo" src="img/logo.png" alt="">
-            <h2 class="title">Sign in</h2>
-            <div class="input-field">
-              <i class="fas fa-user"></i>
-              <input type="text" placeholder="Username" />
+            <img class="logo" src="https://www.cureya.in/wp-content/uploads/2019/07/cureya-logo.png" alt="">
+            <div class="todoc">
+              <a href="../DoctorSignup/doctor.html">
+                <button type="button" class="docbutton"><span>Are you a Doctor? </span></button>
+              </a>
             </div>
-            <div class="input-field">
-              <i class="fas fa-lock"></i>
-              <input type="password" placeholder="Password" />
-            </div>
-            <input type="submit" value="Login" class="btn solid" />
-            <p class="social-text">Or Sign in with social platforms</p>
+            <h2 class="title">Sign Up</h2>
             <div class="social-media">
               <a href="#" class="social-icon">
                 <i class="fab fa-facebook-f"></i>
               </a>
               <a href="#" class="social-icon">
-                <i class="fab fa-twitter"></i>
-              </a>
-              <a href="#" class="social-icon">
                 <i class="fab fa-google"></i>
               </a>
-              <a href="#" class="social-icon">
-                <i class="fab fa-linkedin-in"></i>
-              </a>
             </div>
+            <div class="input-field">
+              <i class="fas fa-user"></i>
+              <input type="text" placeholder="Username" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-envelope"></i>
+              <input type="email" placeholder="Email" />
+            </div>
+                <button type="button" class="button1">Verify Email</button>
+
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder="Password" />
+            </div>
+            <div class="input-field">
+              <i class="fas fa-lock"></i>
+              <input type="password" placeholder=" Confirm Password" />
+            </div>
+            <input type="submit" value="Register" class="btn solid" />
+            <p class="social-text">
+              <div class="divider"><span></span><span>Already a Member?</span><span></span></div>         
+            </p>
+
+            <div>
+                <a href="../Signin/signin.html"> 
+                  <button type="button" class="button">Sign In</button>
+                </a>
+            </div>
+
           </form>
           <!-- sign up -->
-          <form action="#" class="sign-up-form">
+          <!-- <form action="#" class="sign-up-form">
             <img class="logo2" src="img/logo.png" alt="">
             
             <a  href="doctor.html"> <h4>Are You a Doctor ?</h4></a>
@@ -116,8 +132,8 @@
           <img src="img/register.svg" class="image" alt="" />
         </div>
       </div>
-    </div>
+    </div> -->
 
-    <script src="app.js"></script>
+    <script src="../app.js"></script>
   </body>
 </html>
