@@ -56,7 +56,7 @@ form {
   justify-content: center;
   flex-direction: column;
   padding: 0rem 5rem;
-  transition: all 0.2s 0.7s;
+  /* transition: all 0.2s 0.7s; */
   overflow: hidden;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -90,11 +90,12 @@ form.sign-in-form {
   position: relative;
 }
 
+
 .input-field i {
   text-align: center;
   line-height: 55px;
   color: #acacac;
-  transition: 0.5s;
+  /* transition: 0.5s; */
   font-size: 1.1rem;
 }
 
