@@ -15,10 +15,14 @@ input {
 .container {
   position: relative;
   width: 100%;
-  background-color: #fff;
+  /* background-color: #fff; */
   min-height: 100vh;
   overflow: hidden;
+  /* background-image: url("../Assets/image\ 5.jpg"); */
+  background-color: #ecece7;
+
 }
+
 
 .forms-container {
   position: absolute;
@@ -31,15 +35,15 @@ input {
 
 .signin-signup {
   position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 75%;
-  width: 50%;
-  transition: 1s 0.7s ease-in-out;
+  /* top: 50%; */
+  /* transform: translate(-50%, -50%); */
+  /* left: 50%; */
+  width: 100%;
+  /* transition: 1s 0.7s ease-in-out; */
   display: grid;
-  grid-template-columns: 1fr;
-  z-index: 5;
-  /* border: 2px black solid; */
+  justify-content: center;
+
+  border: 2px black solid;
   height: 100%;
 }
 
@@ -49,7 +53,7 @@ form {
   justify-content: center;
   flex-direction: column;
   padding: 0rem 5rem;
-  transition: all 0.2s 0.7s;
+  /* transition: all 0.2s 0.7s; */
   overflow: hidden;
   grid-column: 1 / 2;
   grid-row: 1 / 2;
@@ -281,7 +285,7 @@ form.sign-in-form {
   grid-template-columns: repeat(2, 1fr);
 } */
 
-.container:before {
+/* .container:before {
   content: "";
   position: absolute;
   height: 2000px;
@@ -289,13 +293,13 @@ form.sign-in-form {
   top: -10%;
   right: 42%;
   transform: translateY(-50%);
-  background-image: url("https://images.unsplash.com/photo-1536882240095-0379873feb4e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1051&q=80");
+  background-image: url("../Assets/image\ 3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   transition: 1.8s ease-in-out;
   border-radius: 50%;
   z-index: 6;
-}
+} */
 
 /* .image {
   width: 100%;
@@ -367,7 +371,7 @@ form.sign-in-form {
 
 /* ANIMATION */
 
-.container.sign-up-mode:before {
+/* .container.sign-up-mode:before {
   transform: translate(100%, -50%);
   right: 52%;
 }
@@ -533,4 +537,4 @@ form.sign-in-form {
     bottom: 28%;
     left: 50%;
   }
-}
+} */

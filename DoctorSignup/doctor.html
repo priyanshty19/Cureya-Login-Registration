@@ -45,8 +45,12 @@
               <i class="fas fa-envelope"></i>
               <input type="email" placeholder="Email" />
             </div>
-                <button type="button" class="button1">Verify Email</button>
-
+                <!-- <button type="button" class="button1">Verify Email</button> -->
+                <button type="button" class="button1" ONCLICK="ShowAndHide()">Verify Email</button>
+                <div id="SectionName" style="display:none">
+                  Enter the OTP recieved on Mail : 
+                  <input class="w3-input w3-border" name="first" type="text">
+                </div>
             <div class="input-field">
               <i class="fas fa-lock"></i>
               <input type="password" placeholder="Password" />
@@ -139,7 +143,7 @@
       </div>
     </div> -->
 
-    <script src="../app.js"></script>
+    <script src="../DoctorSignup/otp.js"></script>
   </body>
 </html>
 
