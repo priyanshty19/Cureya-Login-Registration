@@ -29,7 +29,7 @@ input {
   height: 100%;
   top: 0;
   left: 0;
-  border: 2px red solid;
+  /* border: 2px red solid; */
   display: grid;
   justify-content: center;
 }
@@ -146,6 +146,50 @@ form.sign-in-form {
   background-image: -moz-linear-gradient(180deg, #D9D8D3, transparent);
   background-image: -o-linear-gradient(180deg, #D9D8D3, transparent);
   background-image: linear-gradient(90deg, #D9D8D3, transparent);
+}
+
+.todoc{
+  /* border: 2px black solid; */
+  width: 100%;
+  text-align: left;
+}
+
+.docbutton{
+  background-color: #ff9800; 
+  border: none;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  padding: 12px 38px;
+  border-radius: 30px;
+}
+.docbutton span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+/* .docbutton span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+} */
+
+.docbutton:hover span {
+  padding-right: 25px;
+}
+
+.docbutton:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .button {

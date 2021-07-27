@@ -33,7 +33,7 @@ input {
   height: 100%;
   top: 0;
   left: 0;
-  border: 2px red solid;
+  /* border: 2px red solid; */
 }
 
 .signin-signup {
